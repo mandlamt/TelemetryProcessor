@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Profile1",
+    "Projects": [
+      {
+        "Path": "TelemetryPublisher\\TelemetryPublisher.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TelemetryConsumer\\TelemetryConsumer.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "TelemetryShared\\TelemetryShared.csproj",
+        "Action": "None"
+      },
+      {
+        "Path": "TelemetryTests\\TelemetryTests.csproj",
+        "Action": "None"
+      }
+    ]
+  }
+]
